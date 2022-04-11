@@ -5,14 +5,14 @@ const methodOverride = require('method-override');
 require('dotenv').config();
 
 // MONGODB
-const connectToMongoDB = require('./config/mongodb');
+// const connectToMongoDB = require('./config/mongodb');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 const route = require('./routes/index');
 
-connectToMongoDB();
+// connectToMongoDB();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
