@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 :root {
@@ -32,6 +32,7 @@
   width: 7.7rem;
   line-height: 4rem;
   height: auto;
+  margin-left: 22px;
 }
 
 .menu_ul {
@@ -55,7 +56,7 @@
   padding: 5px 0;
 }
 .menu_ul li a::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 3px;
   width: 100%;
@@ -76,7 +77,7 @@
   text-align: center !important;
   font-weight: 700;
   position: relative;
-  padding: 5px 0;
+  padding: 0 20px;
 }
 
 .header-auth a:hover {
@@ -172,7 +173,7 @@
 
 .header-admin-list-text::after {
   text-align: center;
-  content: '';
+  content: "";
   position: absolute;
   height: 3px;
   width: 100%;
@@ -385,4 +386,107 @@ img {
 
 .modal-title {
   color: var(--topicColor);
+}
+
+@media screen and (max-width: 1378px) {
+  .menu_ul {
+    height: 2rem;
+  }
+  .menu_ul li {
+    line-height: 1.6rem;
+  }
+  .menu_ul li a {
+    font-size: 10px;
+  }
+  .search .search_nt {
+    width: 28px;
+    height: 28px;
+  }
+  .header-auth a {
+    font-size: 14px;
+  }
+  .footer_boot_text_ct_ch {
+    font-size: 14px;
+  }
+  .footer_boot_text_ct_text {
+    margin-bottom: 20px;
+  }
+  .footer_boot_duoi_td {
+    margin: 14px 4px 0;
+  }
+  .header-order div {
+    font-size: 9px;
+  }
+  .header-user {
+    width: unset;
+    align-items: center;
+  }
+  .header-user-fullname {
+    font-size: 10px;
+  }
+  .header-logout a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .header_nav_share .img img {
+    width: 5.7rem;
+    margin-left: 0;
+  }
+  .menu_ul li {
+    line-height: 0.9rem;
+  }
+  .header-logout a {
+    font-size: 13px;
+  }
+  .menu_ul li a {
+    font-size: 8px;
+  }
+  .header-order div {
+    line-height: unset;
+    padding: unset;
+  }
+  .header-auth a {
+    font-size: 10px;
+    padding: 0 8px;
+  }
+  .search .search_nt {
+    width: 24px;
+    height: 24px;
+  }
+  .footer_boot_text {
+    margin: 0 20px;
+    width: unset;
+    padding-top: 3%;
+  }
+  .footer_boot_text_ct_text {
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .footer_boot_text_ct_ch {
+    font-size: 12px;
+  }
+  .footer_boot_text_ct_ch {
+    margin: 8px;
+  }
+  .c {
+    font-size: 18px;
+    margin: 8px 6px;
+  }
+  .footer_boot_duoi_td {
+    margin: 0px 4px 0;
+  }
+  .footer_boot_duoi {
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 746px) {
+  .footer_boot_text_ct_ch {
+    margin: 7px;
+  }
+  .header-auth a {
+    padding: 0 6px;
+  }
 }

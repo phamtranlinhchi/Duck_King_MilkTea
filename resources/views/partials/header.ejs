@@ -43,8 +43,8 @@
       .modal table {
         width: 100%;
       }
-      .modal table input[type='text'],
-      .modal table input[type='password'] {
+      .modal table input[type="text"],
+      .modal table input[type="password"] {
         width: 100%;
         padding: 4px 8px;
       }
@@ -78,7 +78,7 @@
           <div class="header_nav_share">
             <div class="img">
               <a href="/">
-                <img style="margin-left: 22px" src="/images/test1.png" alt="" />
+                <img src="/images/test1.png" alt="" />
               </a>
             </div>
             <div class="menu-header">
@@ -149,11 +149,8 @@
             </div>
             <%}%> <%if(!userFName) {%>
             <div class="header-auth">
-              <a href="auth/register" style="padding: 0 20px"> ĐĂNG KÝ </a>
-              <a
-                href="auth/login"
-                style="padding: 0 20px; border-left: 1px solid white"
-              >
+              <a href="auth/register"> ĐĂNG KÝ </a>
+              <a href="auth/login" style="border-left: 1px solid white">
                 ĐĂNG NHẬP
               </a>
             </div>
@@ -292,19 +289,19 @@
     <script>
       window.onscroll = function () {
         // console.info(document.documentElement.scrollTop);
-        var header = document.getElementById('Myheader');
+        var header = document.getElementById("Myheader");
         if (
           document.documentElement.scrollTop > 100 ||
           document.body.scrollTop > 100
         ) {
-          header.style.position = 'fixed';
+          header.style.position = "fixed";
           header.style.left = 0;
           header.style.right = 0;
-          header.style.background = 'rgb(69,59,59)';
+          header.style.background = "rgb(69,59,59)";
           header.style.zIndex = 9;
         } else {
           // header.style.position = "relative";
-          header.style.backgroundColor = 'rgb(0,0,0,0)';
+          header.style.backgroundColor = "rgb(0,0,0,0)";
         }
       };
     </script>

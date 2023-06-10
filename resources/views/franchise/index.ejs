@@ -353,7 +353,7 @@
           <div class="container">
             <div class="grid">
               <div class="grid-col-1">
-                <div class="grid-item" style="width: 392px; height: 260px">
+                <div class="grid-item">
                   <iframe
                     className="video"
                     title="video"
@@ -363,7 +363,7 @@
                     height="100%"
                   ></iframe>
                 </div>
-                <div class="grid-item" style="width: 392px; height: 260px">
+                <div class="grid-item">
                   <iframe
                     className="video"
                     title="video"
@@ -375,7 +375,7 @@
                 </div>
               </div>
               <div class="grid-col-2">
-                <div class="grid-item" style="width: 392px; height: 260px">
+                <div class="grid-item">
                   <iframe
                     className="video"
                     title="video"
@@ -385,7 +385,7 @@
                     height="100%"
                   ></iframe>
                 </div>
-                <div class="grid-item" style="width: 392px; height: 260px">
+                <div class="grid-item">
                   <iframe
                     className="video"
                     title="video"
@@ -397,7 +397,7 @@
                 </div>
               </div>
               <div class="grid-col-3">
-                <div class="grid-item" style="width: 392px; height: 260px">
+                <div class="grid-item">
                   <iframe
                     className="video"
                     title="video"
@@ -407,7 +407,7 @@
                     height="100%"
                   ></iframe>
                 </div>
-                <div class="grid-item" style="width: 392px; height: 260px">
+                <div class="grid-item">
                   <iframe
                     className="video"
                     title="video"
@@ -763,11 +763,11 @@
     <%-include('../partials/link_js.ejs')%>
 
     <script>
-      $('.nav-link').on('click', function () {
-        $('.nav-link.active').removeClass('active');
-        $(this).addClass('active');
+      $(".nav-link").on("click", function () {
+        $(".nav-link.active").removeClass("active");
+        $(this).addClass("active");
       });
-      var myCarousel = document.querySelector('#myCarousel');
+      var myCarousel = document.querySelector("#myCarousel");
       var carousel = new bootstrap.Carousel(myCarousel);
     </script>
   </body>

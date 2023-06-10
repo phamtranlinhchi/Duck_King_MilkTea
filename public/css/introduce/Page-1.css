@@ -1936,3 +1936,22 @@
     padding-left: 85px;
   }
 }
+
+@media screen and (max-width: 988px) {
+  .hidden-768 {
+    display: none !important;
+  }
+  .u-section-4 .u-text-1,
+  .u-section-4 .u-text-4,
+  .u-section-4 .u-text-7,
+  .u-section-4 .u-text-10 {
+    font-size: 12px;
+  }
+  .u-section-4 .u-text-2,
+  .u-section-4 .u-text-5,
+  .u-section-4 .u-text-11,
+  .u-section-4 .u-text-8 {
+    font-size: 16px;
+    margin-top: 6px;
+  }
+}
