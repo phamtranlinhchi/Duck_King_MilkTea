@@ -484,9 +484,18 @@ img {
 
 @media screen and (max-width: 746px) {
   .footer_boot_text_ct_ch {
-    margin: 7px;
+    margin: 4px;
   }
   .header-auth a {
     padding: 0 6px;
+  }
+  .footer_boot_duoi_td {
+    font-size: 11px;
+  }
+  .footer_boot_duoi_tt {
+    font-size: 11px;
+  }
+  .footer_boot_text_logo {
+    width: 17%;
   }
 }
